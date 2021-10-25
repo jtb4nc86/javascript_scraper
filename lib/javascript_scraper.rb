@@ -1,6 +1,5 @@
-# frozen_string_literal: true
-
-require_relative "javascript_scraper/version"
+require_relative "./javascript_scraper/version"
+require_relative "./javascript_scraper/cli"
 
 module JavascriptScraper
   class Error < StandardError; end
