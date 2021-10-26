@@ -1,12 +1,6 @@
 
 
-module JavascriptScraper
-    class CLI
-        def call
-            puts 'HELLO!'
-        end
-    end
-end
+
 
 class Display_Instructions
     def introductions
