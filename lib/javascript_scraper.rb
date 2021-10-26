@@ -8,7 +8,7 @@ end
 
 
 class Scraper 
-  extend Instructions
+  
 
   def self.get_input
     if user_input == 'q'
@@ -27,6 +27,7 @@ class Scraper
   end
 end
 
+Instructions.display_instructions
 Scraper.introductions
 Scraper.get_input
 
