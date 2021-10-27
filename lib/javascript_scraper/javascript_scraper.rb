@@ -1,5 +1,5 @@
 require_relative "./javascript_scraper/version"
-require_relative "./javascript_scraper/cli"
+require_relative "./javascript_scraper/cli.rb"
 
 module JavascriptScraper
   class Error < StandardError; end
@@ -8,6 +8,10 @@ end
 
 
 class Scraper 
+
+  def display_instructions
+    Display_Instructions
+  end
   
 
   def self.get_input
@@ -27,7 +31,7 @@ class Scraper
   end
 end
 
-Instructions.display_instructions
+Display_Instructions.display_instructions
 Scraper.introductions
 Scraper.get_input
 

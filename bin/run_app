@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 require_relative '../lib/javascript_scraper'
+require_relative './lib/cli.rb'
 
 Display_Instructions.new.introductions
 Display_Instructions.new.quit_message
 Display_Instructions.new.invalid_entry
+Display_Instructions.new.display_instructions

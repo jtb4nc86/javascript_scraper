@@ -3,6 +3,9 @@
 
 
 class Display_Instructions
+
+    
+
     def introductions
         puts 'Welcome to dev.to websraper. This CLI tool gathers aricles based on the hashtag provided.'
         puts 'If you want to quit, simply type (q) the next time you are prompted to enter a value.'
